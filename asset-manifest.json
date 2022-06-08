@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/2112886_WSOA4175/static/css/main.1d766016.css",
+    "main.js": "/2112886_WSOA4175/static/js/main.aaceabba.js",
+    "index.html": "/2112886_WSOA4175/index.html",
+    "main.1d766016.css.map": "/2112886_WSOA4175/static/css/main.1d766016.css.map",
+    "main.aaceabba.js.map": "/2112886_WSOA4175/static/js/main.aaceabba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d766016.css",
+    "static/js/main.aaceabba.js"
+  ]
+}
