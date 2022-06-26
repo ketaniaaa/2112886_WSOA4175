@@ -3,6 +3,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import Footer from './components/Footer';
+
 class App extends Component{
     render(){    
         return (
@@ -14,6 +16,7 @@ class App extends Component{
       
       
   </Routes>
+<Footer/>
 
 </div>
         );

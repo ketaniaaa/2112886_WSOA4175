@@ -4,7 +4,7 @@
 
 .home{
     width: 100%;
-    height: 70vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,6 +12,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 
@@ -19,18 +20,29 @@
     width: auto;
 margin: none;
     flex: 50%;
+background-color: rgb(255, 231, 231);
+
+
 
 }
+
+header{
+    background-color: beige;
+    width: 100%;
+    height: 120%;
+}
+
 h1{
-    justify-content: flex-start;
-    align-items: flex-end;
-    font-size: 90px;
+    justify-content: center;
+    align-items: center;
+    font-size: 110px;
     flex: 50%;
     color: #1b1b1b;
-    width: 70%;
+    width: 100%;
     font-family: 'Roboto Mono', sans-serif;
     text-transform: uppercase;
-text-shadow: -4px -1px 0px rgb(255, 255, 255);
+
+
 }
 .button1{
     color: rgb(255, 255, 255);
@@ -106,14 +118,22 @@ background-color: rgb(255, 255, 255);
 }
 
 .blogAd{
-    padding: 20px;
-    background-color: green;
+    
+    background-color: rgb(254, 104, 29);
     width: 100%;
+    height: 50%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+  border: solid black 2px;
+    
 }
 .adText{
     display: flex;
     width: 50%;
-    background-color: black;
+    background-color: rgb(158, 13, 13);
     color: white;
+    margin-left: 10vh;
+    justify-content: flex-end;
+    border: solid black 3px;
 }
