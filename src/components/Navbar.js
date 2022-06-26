@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+
+//imported local files 
 import Logo from '../assests/newLogo.png';
+
+
+//other dependancies 
 import MenuIcon from '@mui/icons-material/Menu';
  import styled from "styled-components"; //i used this to help with styling changes on one document for easier debugging so i used the babel api
  
@@ -92,7 +97,7 @@ class Navbar extends Component {
   state = {
     toggled: false
   };
-
+//ensure that the burger menu is not the default if on desktop 
 
   menuToggle = () => {
     const { toggled } = this.state;
@@ -113,7 +118,7 @@ class Navbar extends Component {
     window.addEventListener("resize", this.resetToggle);
   }
 
-
+//listner to check the size of the window and if it meets the breakpoint number of pixels, the menu will be toggled 
 
   render() {
     const { toggled } = this.state;
@@ -127,7 +132,7 @@ class Navbar extends Component {
     return (
       <Nav>
         <div>
-          <img src={Logo} id="logo"/>
+          <img src={Logo} id="logo" alt="the logo of the site that says Bad Design Museum"/>
           <span id="menu-bar">
             <span onClick={this.menuToggle}><MenuIcon/></span>
           </span>
