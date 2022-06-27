@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-
+import '../styles/footer.css';
 
 
 export default class Footer extends Component {
   render() {
     return (
       <body>
-        <section>hello this is the footer</section>
+        <section className='footText'>2112886-ketania-govender</section>
       </body>
     )
   }

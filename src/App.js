@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Blog from './pages/Blog';
 import Design from './pages/Design';
 import Netart from './pages/Netart';
+import Designjustice from './pages/Designjustice';
 
 
 class App extends Component{
@@ -22,6 +23,7 @@ class App extends Component{
       <Route path='/Blog' element={<Blog/>}/>
       <Route path='/Design' element={<Design/>}/>
       <Route path='/Netart' element={<Netart/>}/>
+      <Route path='/Designjustice' element={<Designjustice/>}/>
 
       
       

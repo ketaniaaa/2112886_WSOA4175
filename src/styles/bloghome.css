@@ -1,0 +1,28 @@
+.menu{
+    width:100%;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu .menuItem{
+    align-self: flex-end;
+}
+.menu .menuTitle{
+    font-family: monospace;
+    font-size: 60px;
+    background-color: #e7e900;
+    padding-right: 20px;
+}
+/*@media query screen only (max-width: 768px){
+*/
+.menuItem{
+    border: 2px solid black;
+    
+    justify-content: end;
+    align-items: baseline;
+    width: 98%;
+
+  
+}
